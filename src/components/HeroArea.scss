@@ -1,0 +1,57 @@
+ul {
+  padding: 4rem 6rem;
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  display: inline;
+  margin-left: 3rem;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 3.4rem;
+  color: white;
+  &:hover {
+    color: beige;
+  }
+}
+.menuOpenButton {
+  display: flex;
+  position: absolute;
+  right: 96px;
+  top: 64px;
+}
+
+.small-menu {
+  .menuCloseButton {
+    display: flex;
+    position: absolute;
+    top: 48px;
+    right: 48px;
+
+  }
+  ul {
+    background-color: rgba(0,0,0, 0.6);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  li {
+    padding: 0.8rem 0;
+    margin-left: 0;
+  }
+  //a {
+  //  font-size: 1.4rem;
+  //}
+}
+
+// Smartphones
+@media (max-width: 480px) {
+  .menuOpenButton {
+    top: 48px !important;
+    right: 48px !important;
+  }
+}
