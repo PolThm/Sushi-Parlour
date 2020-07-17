@@ -1,38 +1,45 @@
-ul {
-  padding: 4rem 6rem;
+.header-content {
+  max-width: 1440px;
+  margin: auto;
+}
+.header-content nav ul {
+  padding: 3rem 4rem;
   display: flex;
   justify-content: flex-end;
 }
-
-li {
+.header-content nav li {
   display: inline;
+  margin-left: 1rem;
+}
+.header-content nav li:nth-child(2) {
   margin-left: 3rem;
 }
-
-a {
+.header-content nav a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 3.4rem;
-  color: white;
+  font-size: 2.2rem;
+  color: #afc67b;
+  padding: 0.5rem;
+  border: solid transparent 1px;
 }
-a:hover {
-  color: beige;
+.header-content nav a:hover {
+  color: #afc67b;
+  border: solid #afc67b 1px;
+  background-color: transparent;
 }
-
-.menuOpenButton {
+.header-content nav .menuOpenButton {
   display: flex;
   position: absolute;
   right: 96px;
   top: 64px;
 }
-
-.small-menu .menuCloseButton {
+.header-content nav .small-menu .menuCloseButton {
   display: flex;
   position: absolute;
-  top: 48px;
-  right: 48px;
+  right: 96px;
+  top: 64px;
 }
-.small-menu ul {
+.header-content nav .small-menu ul {
   background-color: rgba(0, 0, 0, 0.6);
   height: 100vh;
   display: flex;
@@ -40,13 +47,40 @@ a:hover {
   justify-content: center;
   padding: 0;
 }
-.small-menu li {
+.header-content nav .small-menu li {
   padding: 0.8rem 0;
   margin-left: 0;
 }
+.header-content nav .small-menu a {
+  font-size: 1.4rem;
+}
+.header-content .header-core {
+  margin-left: -2.54rem;
+}
+.header-content .header-core img {
+  width: 9.4rem;
+}
+.header-content .header-core h1, .header-content .header-core h2, .header-content .header-core a {
+  color: #afc67b;
+}
+.header-content .header-core h1 {
+  font-size: 3.6rem;
+}
+.header-content .header-core h2 {
+  font-size: 4.9rem;
+}
+.header-content .header-core a {
+  font-size: 3.1rem;
+  text-decoration: none;
+}
+.header-content .header-core a:hover {
+  color: #afc67b;
+  border: solid #afc67b 1px;
+  background-color: transparent;
+}
 
 @media (max-width: 480px) {
-  .menuOpenButton {
+  .menuOpenButton, .menuCloseButton {
     top: 48px !important;
     right: 48px !important;
   }
