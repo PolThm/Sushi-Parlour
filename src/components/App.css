@@ -3,4 +3,20 @@
   font-family: Montserrat, sans-serif;
 }
 
+.main {
+  background-color: #212121;
+  height: 8000px;
+}
+.main .main-bg {
+  position: absolute;
+  height: 8000px;
+  width: 100%;
+  object-fit: cover;
+  z-index: 10;
+}
+
+.heroArea {
+  z-index: 20;
+}
+
 /*# sourceMappingURL=App.css.map */
