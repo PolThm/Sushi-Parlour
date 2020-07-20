@@ -6771,6 +6771,14 @@ video {
   font-family: Montserrat, sans-serif;
 }
 
+.font-goodDog {
+  font-family: goodDog;
+}
+
+.font-goodDogCool {
+  font-family: goodDogCool;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -21319,6 +21327,14 @@ video {
 
   .sm\:font-montserrat {
     font-family: Montserrat, sans-serif;
+  }
+
+  .sm\:font-goodDog {
+    font-family: goodDog;
+  }
+
+  .sm\:font-goodDogCool {
+    font-family: goodDogCool;
   }
 
   .sm\:font-hairline {
@@ -35872,6 +35888,14 @@ video {
     font-family: Montserrat, sans-serif;
   }
 
+  .md\:font-goodDog {
+    font-family: goodDog;
+  }
+
+  .md\:font-goodDogCool {
+    font-family: goodDogCool;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -50423,6 +50447,14 @@ video {
     font-family: Montserrat, sans-serif;
   }
 
+  .lg\:font-goodDog {
+    font-family: goodDog;
+  }
+
+  .lg\:font-goodDogCool {
+    font-family: goodDogCool;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -64972,6 +65004,14 @@ video {
 
   .xl\:font-montserrat {
     font-family: Montserrat, sans-serif;
+  }
+
+  .xl\:font-goodDog {
+    font-family: goodDog;
+  }
+
+  .xl\:font-goodDogCool {
+    font-family: goodDogCool;
   }
 
   .xl\:font-hairline {

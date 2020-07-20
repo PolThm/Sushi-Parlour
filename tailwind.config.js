@@ -1,3 +1,5 @@
+// import './src/scssLibs/fonts.css';
+
 module.exports = {
   purge: [],
   theme: {
@@ -11,7 +13,9 @@ module.exports = {
         SPDarkGreen: '#4d5342'
       },
       fontFamily: {
-        'montserrat': ['Montserrat', 'sans-serif']
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'goodDog': ['goodDog'],
+        'goodDogCool': ['goodDogCool'],
       }
     },
   },
