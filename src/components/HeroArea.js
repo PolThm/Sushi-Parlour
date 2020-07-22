@@ -15,7 +15,7 @@ class HeroArea extends Component {
 
     if (!this.state.mobileMenuOpen) {
       headerContent =
-        <div className="grid grid-cols-12">
+        <div className="hidden sm:grid grid-cols-12">
           <div className="col-start-9 col-end-13 header-core">
             <img src={logo} alt="logo"/>
             <div className="mt-24 uppercase whitespace-no-wrap">

@@ -16,7 +16,7 @@ import mainBG from "../img/main-bg.png";
 const App = () => {
   return (
     <div className="main">
-      <img src={mainBG} alt="main background" className="main-bg"/>
+      {/*<img src={mainBG} alt="main background" className="main-bg"/>*/}
       <HeroArea/>
       <Group02/>
       <Group03/>

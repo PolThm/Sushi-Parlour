@@ -3,7 +3,7 @@ import "./Group08.css";
 
 const Group08 = () => {
   return (
-    <div>
+    <div  className="g08">
 
     </div>
   );
