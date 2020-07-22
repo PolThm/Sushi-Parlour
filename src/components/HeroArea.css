@@ -34,12 +34,14 @@ header .header-content nav .menuOpenButton {
   position: absolute;
   right: 96px;
   top: 64px;
+  color: #afc67b !important;
 }
 header .header-content nav .small-menu .menuCloseButton {
   display: flex;
   position: absolute;
   right: 96px;
   top: 64px;
+  color: #afc67b;
 }
 header .header-content nav .small-menu ul {
   background-color: rgba(0, 0, 0, 0.6);

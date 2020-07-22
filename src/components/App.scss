@@ -1,7 +1,25 @@
+html {
+  font-size: 14px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(14px + 2 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 * {
-  color: white;
   font-family: Montserrat, sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  color: white;
+}
+
 
 .main {
   background-color: #212121;
@@ -18,3 +36,4 @@
 .heroArea {
   z-index: 20;
 }
+

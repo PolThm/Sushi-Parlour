@@ -4,7 +4,7 @@ import Group03Element from "./Group03Element";
 
 const Group03 = () => {
   return (
-    <div className="group03 bg-SPDarkGreen bg-opacity-75">
+    <div className="g03 bg-SPDarkGreen bg-opacity-75">
       <div className="container h-full flex justify-center items-center">
         <Group03Element title={'New tastes'} nbOfBrushes={1}/>
         <Group03Element title={'New dishes cooking'} nbOfBrushes={2}/>

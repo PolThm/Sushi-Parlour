@@ -1,4 +1,5 @@
 import React from "react";
+import "./Group07.css";
 
 const Group07 = () => {
   return (
