@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import "./HeroArea.css";
+import "./Group01HeroArea.css";
 import ResponsiveMenu from 'react-responsive-navbar';
 import {FaBars, FaRegWindowClose} from 'react-icons/fa';
 import background from "../img/hero_area/hero_area-bg.jpg";
 import logo from "../img/hero_area/logo.png";
 
-class HeroArea extends Component {
+class Group01HeroArea extends Component {
   state = {
     mobileMenuOpen: false
   };
@@ -15,14 +15,14 @@ class HeroArea extends Component {
 
     if (!this.state.mobileMenuOpen) {
       headerContent =
-        <div className="hidden sm:grid grid-cols-12">
-          <div className="col-start-9 col-end-13 header-core">
+        <div className="grid grid-cols-12">
+          <div className="col-start-1 md:col-start-9 col-end-13 header-core">
             <img src={logo} alt="logo"/>
-            <div className="mt-24 uppercase whitespace-no-wrap">
+            <div className="uppercase whitespace-no-wrap">
               <h1>New Opening</h1>
               <h2 className="font-weight-bold">23rd Sept</h2>
             </div>
-            <div className="mt-32">
+            <div className="learnMoreButton">
               <a href="" className="uppercase whitespace-no-wrap bg-SPDarkGreen bg-opacity-75 px-4 py-3">Learn
                 More</a>
             </div>
@@ -32,7 +32,7 @@ class HeroArea extends Component {
 
 
     return (
-      <header style={{backgroundImage: `url(${background})`}} className="min-h-screen bg-fixed bg-cover bg-top">
+      <header style={{backgroundImage: `url(${background})`}} className="min-h-screen bg-fixed bg-cover bg-right-top">
         <div className="header-content">
           <nav className="h-10">
             <ResponsiveMenu
@@ -51,7 +51,7 @@ class HeroArea extends Component {
               }
             />
           </nav>
-          <div className="container mt-32">
+          <div className="container">
             {headerContent}
           </div>
         </div>
@@ -60,4 +60,4 @@ class HeroArea extends Component {
   }
 }
 
-export default HeroArea;
+export default Group01HeroArea;

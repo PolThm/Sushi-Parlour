@@ -59,9 +59,10 @@ header .header-content nav .small-menu a {
   font-size: 1.4rem;
 }
 header .header-content .header-core {
-  margin-left: -2.54rem;
+  margin-left: 1rem;
 }
 header .header-content .header-core img {
+  margin-top: 12vh;
   width: 9.4rem;
 }
 header .header-content .header-core h1, header .header-content .header-core h2, header .header-content .header-core a {
@@ -69,18 +70,23 @@ header .header-content .header-core h1, header .header-content .header-core h2, 
 }
 header .header-content .header-core h1 {
   font-size: 3.6rem;
+  margin-top: 9vh;
 }
 header .header-content .header-core h2 {
   font-size: 4.9rem;
+  margin-top: -30px;
 }
-header .header-content .header-core a {
+header .header-content .header-core .learnMoreButton {
+  margin-top: 12vh;
+}
+header .header-content .header-core .learnMoreButton a {
   font-size: 3.1rem;
   text-decoration: none;
   border: solid transparent 1px;
   transition: all 200ms ease-in-out;
   transition-property: border-color, background-color;
 }
-header .header-content .header-core a:hover {
+header .header-content .header-core .learnMoreButton a:hover {
   border-color: #afc67b;
   background-color: transparent;
 }
@@ -91,5 +97,22 @@ header .header-content .header-core a:hover {
     right: 48px !important;
   }
 }
+@media (max-width: 767px) {
+  .header-core {
+    margin: 0 2.5rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-core h1 {
+    font-size: 2.5rem !important;
+  }
+  .header-core h2 {
+    font-size: 3.5rem !important;
+  }
+  .header-core a {
+    font-size: 2rem !important;
+  }
+}
 
-/*# sourceMappingURL=HeroArea.css.map */
+/*# sourceMappingURL=Group01HeroArea.css.map */

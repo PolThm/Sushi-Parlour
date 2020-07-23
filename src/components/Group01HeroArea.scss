@@ -79,9 +79,9 @@ header {
 
 
     .header-core {
-      margin-left: -2.54rem;
-
+      margin-left: 1rem;
       img {
+        margin-top: 12vh;
         width: 9.4rem;
       }
 
@@ -91,22 +91,26 @@ header {
 
       h1 {
         font-size: 3.6rem;
+        margin-top: 9vh;
       }
 
       h2 {
         font-size: 4.9rem;
+        margin-top: -30px;
       }
 
-      a {
-        font-size: 3.1rem;
-        text-decoration: none;
-        border: solid transparent 1px;
-        transition: all 200ms ease-in-out;
-        transition-property: border-color, background-color;
-
-        &:hover {
-          border-color: $primary;
-          background-color: transparent;
+      .learnMoreButton {
+        margin-top: 12vh;
+        a {
+          font-size: 3.1rem;
+          text-decoration: none;
+          border: solid transparent 1px;
+          transition: all 200ms ease-in-out;
+          transition-property: border-color, background-color;
+          &:hover {
+            border-color: $primary;
+            background-color: transparent;
+          }
         }
       }
     }
@@ -114,10 +118,27 @@ header {
 }
 
 
-// Smartphones
 @media (max-width: 480px) {
   .menuOpenButton, .menuCloseButton {
     top: 48px !important;
     right: 48px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-core {
+    margin: 0 2.5rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      font-size: 2.5rem !important;
+    }
+    h2 {
+      font-size: 3.5rem !important;
+    }
+    a {
+      font-size: 2rem !important;
+    }
   }
 }
