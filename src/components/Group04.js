@@ -14,7 +14,7 @@ const Group04 = () => {
       <div className="container bg-SPDarkGreen my-24 mx-auto px-0">
         <div className="py-16 text-center px-1">
           <h2 className="font-goodDogCool text-SPGreen text-4xl sm:text-5xl">We bring tradition</h2>
-          <h2 className="text-3xl sm:text-5xl uppercase font-weight-light">To your plate</h2>
+          <h2 className="g04TitleL2 text-3xl sm:text-5xl uppercase font-weight-light">To your plate</h2>
         </div>
         <div className="grid lg:grid-cols-2">
           <Group04Dish

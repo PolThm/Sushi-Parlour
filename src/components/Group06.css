@@ -1,5 +1,29 @@
 .g06 {
+  height: 200vh;
+}
+
+.g06-marginTop {
   height: 240px;
+}
+
+.g06-main {
+  background-color: #424639;
+}
+.g06-main .g06TitleL2 {
+  margin-top: -15px;
+}
+.g06-main .g06-content {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.g06-main .g06-content .g06Element p {
+  max-width: 409px;
+}
+
+@media (max-width: 480px) {
+  .g06 {
+    height: 300vh;
+  }
 }
 
 /*# sourceMappingURL=Group06.css.map */
