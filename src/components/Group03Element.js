@@ -1,5 +1,5 @@
 import React from "react";
-import brush from "../img/group_03/brush.png";
+import brush from "../img/group03/brush.png";
 
 const Group03Element = (props) => {
   const brushes = Array.from(Array(props.nbOfBrushes)).map((_, i) => <img className="mr-2" key={i} src={brush} alt="Brush"/>);

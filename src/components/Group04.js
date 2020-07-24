@@ -1,11 +1,11 @@
 import React from "react";
 import "./Group04.css";
-import img01 from '../img/group_04/g04-img01.jpg';
-import img02 from '../img/group_04/g04-img02.jpg';
-import img03 from '../img/group_04/g04-img03.jpg';
-import img04 from '../img/group_04/g04-img04.jpg';
-import img05 from '../img/group_04/g04-img05.jpg';
-import img06 from '../img/group_04/g04-img06.jpg';
+import img01 from '../img/group04/g04-img01.jpg';
+import img02 from '../img/group04/g04-img02.jpg';
+import img03 from '../img/group04/g04-img03.jpg';
+import img04 from '../img/group04/g04-img04.jpg';
+import img05 from '../img/group04/g04-img05.jpg';
+import img06 from '../img/group04/g04-img06.jpg';
 import Group04Dish from "./Group04Dish";
 
 const Group04 = () => {
@@ -32,29 +32,29 @@ const Group04 = () => {
           />
           <Group04Dish
             img={img03}
-            title={"California Sushi"}
+            title={"Poké Bowl"}
             description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do"}
-            price={"14.95"}
+            price={"13.95"}
             col2={true}
           />
           <Group04Dish
             img={img04}
-            title={"Traditional Wok"}
+            title={"Fresh Salmon"}
             description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do"}
-            price={"12.95"}
+            price={"10.95"}
             peerAndCol2={true}
           />
           <Group04Dish
             img={img05}
-            title={"California Sushi"}
+            title={"Avocado Sushi"}
             description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do"}
-            price={"14.95"}
+            price={"12.95"}
           />
           <Group04Dish
             img={img06}
-            title={"Traditional Wok"}
+            title={"King Sushi"}
             description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do"}
-            price={"12.95"}
+            price={"15.95"}
             peer={true}
           />
         </div>

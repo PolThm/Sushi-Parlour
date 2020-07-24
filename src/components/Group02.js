@@ -1,6 +1,6 @@
 import React from "react";
 import "./Group02.css";
-import imgG2 from "../img/group_02/group02-img.png"
+import imgG2 from "../img/group02/group02-img.png"
 
 const Group02 = () => {
   return (

@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import "./Group01HeroArea.css";
 import ResponsiveMenu from 'react-responsive-navbar';
 import {FaBars, FaRegWindowClose} from 'react-icons/fa';
-import background from "../img/hero_area/hero_area-bg.jpg";
-import logo from "../img/hero_area/logo.png";
+import background from "../img/group01_heroArea/heroArea-bg.jpg";
+import logo from "../img/group01_heroArea/logo.png";
 
 class Group01HeroArea extends Component {
   state = {
