@@ -8,7 +8,6 @@ header .header-content nav ul {
   padding: 3rem 4rem;
   display: flex;
   justify-content: flex-end;
-  margin-right: -0.7rem;
 }
 header .header-content nav li {
   display: inline;
@@ -58,8 +57,10 @@ header .header-content nav .small-menu li {
 header .header-content nav .small-menu a {
   font-size: 1.4rem;
 }
-header .header-content .header-core {
-  margin-left: 1rem;
+header .header-content .header-main {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7.3rem;
 }
 header .header-content .header-core img {
   margin-top: 12vh;
@@ -91,27 +92,71 @@ header .header-content .header-core .learnMoreButton a:hover {
   background-color: transparent;
 }
 
+@media (max-width: 767px) {
+  .header-main {
+    margin-right: 0 !important;
+    justify-content: center !important;
+  }
+
+  .header-core {
+    padding: 0 2rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around !important;
+  }
+  .header-core img {
+    margin-top: 5vh !important;
+  }
+  .header-core h1 {
+    font-size: 2.5rem !important;
+    margin-top: 0 !important;
+  }
+  .header-core h2 {
+    font-size: 3.5rem !important;
+  }
+  .header-core .learnMoreButton {
+    margin-top: 0 !important;
+    margin-bottom: 20vh !important;
+  }
+  .header-core .learnMoreButton a {
+    font-size: 2rem !important;
+  }
+}
 @media (max-width: 480px) {
   .menuOpenButton, .menuCloseButton {
     top: 48px !important;
     right: 48px !important;
   }
-}
-@media (max-width: 767px) {
-  .header-core {
-    margin: 0 2.5rem !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
   .header-core h1 {
-    font-size: 2.5rem !important;
+    font-size: 2.3rem !important;
   }
   .header-core h2 {
-    font-size: 3.5rem !important;
+    font-size: 3.3rem !important;
   }
   .header-core a {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-content nav a {
+    font-size: 1.8rem !important;
+  }
+
+  .header-main {
+    margin-right: 7.6rem !important;
+  }
+
+  .header-core h1 {
+    font-size: 2.95rem !important;
+  }
+  .header-core h2 {
+    font-size: 4rem !important;
+  }
+  .header-core a {
+    font-size: 2.5rem !important;
   }
 }
 

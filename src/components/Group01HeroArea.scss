@@ -2,8 +2,6 @@ $primary: #afc67b;
 $secondary: #4d5342;
 
 header {
-  //position: relative;
-  //z-index: 20;
   .header-content {
     max-width: 1440px;
     margin: auto;
@@ -14,7 +12,7 @@ header {
         padding: 3rem 4rem;
         display: flex;
         justify-content: flex-end;
-        margin-right: -0.7rem;
+        //margin-right: -0.7rem;
       }
 
       li {
@@ -77,9 +75,12 @@ header {
       }
     }
 
-
+    .header-main {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 7.3rem;
+    }
     .header-core {
-      margin-left: 1rem;
       img {
         margin-top: 12vh;
         width: 9.4rem;
@@ -118,27 +119,73 @@ header {
 }
 
 
+@media (max-width: 767px) {
+  .header-main {
+    margin-right: 0 !important;
+    justify-content: center !important;
+  }
+  .header-core {
+    padding: 0 2rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around !important;
+    img {
+      margin-top: 5vh !important;
+    }
+    h1 {
+      font-size: 2.5rem !important;
+      margin-top: 0 !important;
+    }
+    h2 {
+      font-size: 3.5rem !important;
+    }
+    .learnMoreButton {
+      margin-top: 0 !important;
+      margin-bottom: 20vh !important;
+      a {
+        font-size: 2rem !important;
+      }
+    }
+  }
+}
+
 @media (max-width: 480px) {
   .menuOpenButton, .menuCloseButton {
     top: 48px !important;
     right: 48px !important;
   }
-}
-
-@media (max-width: 767px) {
   .header-core {
-    margin: 0 2.5rem !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     h1 {
-      font-size: 2.5rem !important;
+      font-size: 2.3rem !important;
     }
     h2 {
-      font-size: 3.5rem !important;
+      font-size: 3.3rem !important;
     }
     a {
-      font-size: 2rem !important;
+      font-size: 1.8rem !important;
+    }
+  }
+}
+
+// Tablets
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-content nav a {
+    font-size: 1.8rem !important;
+  }
+  .header-main {
+    margin-right: 7.6rem !important;
+  }
+  .header-core {
+    h1 {
+      font-size: 2.95rem !important;
+    }
+    h2 {
+      font-size: 4rem !important;
+    }
+    a {
+      font-size: 2.5rem !important;
     }
   }
 }

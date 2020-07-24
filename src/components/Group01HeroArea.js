@@ -15,8 +15,7 @@ class Group01HeroArea extends Component {
 
     if (!this.state.mobileMenuOpen) {
       headerContent =
-        <div className="grid grid-cols-12">
-          <div className="col-start-1 md:col-start-9 col-end-13 header-core">
+          <div className="header-core">
             <img src={logo} alt="logo"/>
             <div className="uppercase whitespace-no-wrap">
               <h1>New Opening</h1>
@@ -27,7 +26,6 @@ class Group01HeroArea extends Component {
                 More</a>
             </div>
           </div>
-        </div>
     }
 
 
@@ -51,7 +49,7 @@ class Group01HeroArea extends Component {
               }
             />
           </nav>
-          <div className="container">
+          <div className="header-main">
             {headerContent}
           </div>
         </div>
