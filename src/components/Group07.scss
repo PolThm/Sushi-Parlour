@@ -1,4 +1,5 @@
 label {
+  margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
 }
@@ -9,13 +10,27 @@ input, select {
   border: 1px solid white;
   border-radius: 6px;
   max-width: 14rem;
-  padding: 0.25rem 0.25rem;
+  padding: 0.25rem 0.5rem;
   &::placeholder {
-    padding: 0.25rem 0.25rem;
+    padding: 0.25rem 0;
+    //color: white;
   }
   option {
     color: #212121;
   }
+}
+.inputPeople, .inputTime {
+  padding: 0.25rem 0.5rem;
+  width: 14rem;
+  appearance: none;
+  z-index: 20;
+}
+
+.fa-chevron-down, .fa-calendar-alt, .fa-clock {
+  position: relative;
+  top: -33px;
+  left: 200px;
+  z-index: 1;
 }
 
 .submitButton {
@@ -36,10 +51,14 @@ input, select {
 @media (max-width: 639px) {
   label {
     align-items: center !important;
+    margin-bottom: 1rem;
   }
 }
 
 @media (min-width: 640px) and (max-width: 767px) {
+  label {
+    margin-bottom: 2rem;
+  }
   .label2, .label4, .label6 {
     margin-left: auto
   }

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import "./Group01HeroArea.css";
+import "./Group01Header.css";
 import ResponsiveMenu from 'react-responsive-navbar';
 import {FaBars, FaRegWindowClose} from 'react-icons/fa';
-import background from "../img/group01_heroArea/heroArea-bg.jpg";
-import logo from "../img/group01_heroArea/logo.png";
+import background from "../img/group01_header/header-bg.jpg";
+import logo from "../img/group01_header/logo.png";
 
-class Group01HeroArea extends Component {
+class Group01Header extends Component {
   state = {
     mobileMenuOpen: false
   };
@@ -58,4 +58,4 @@ class Group01HeroArea extends Component {
   }
 }
 
-export default Group01HeroArea;
+export default Group01Header;

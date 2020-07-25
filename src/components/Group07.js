@@ -1,20 +1,33 @@
 import React, {Component} from "react";
 import "./Group07.css";
+import "react-datepicker/dist/react-datepicker.css";
+import DatePicker from "react-datepicker";
+import TimePicker from 'react-bootstrap-time-picker';
 
 class Group07 extends Component {
   state = {
-    nbOfPeople: null,
-    date: null,
-    time: null,
-    name: null,
-    email: null,
-    phone: null
+    nbOfPeople: 2,
+    startDate: new Date(),
+    time: '10:00apm',
+    name: '',
+    email: '',
+    phone: '',
+
+
   };
 
   handleChange = (event) => {
     let nam = event.target.name;
     let val = event.target.value;
     this.setState({[nam]: val});
+  };
+
+  handleChangeDate = (date) => {
+    this.setState({startDate: date});
+  };
+
+  handleChangeTime = (time) => {
+    this.setState({time});
   };
 
   handleSubmit = (event) => {
@@ -29,7 +42,7 @@ class Group07 extends Component {
           <div className="flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
             <label className="label1">
               How many people?
-              <select name="nbOfPeople" value={!this.state.nbOfPeople ? 2 : this.state.nbOfPeople} onChange={this.handleChange} placeholder="2 people">
+              <select name="nbOfPeople" value={this.state.nbOfPeople} onChange={this.handleChange} placeholder="2 people" className="inputPeople">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -39,14 +52,17 @@ class Group07 extends Component {
                 <option value="7">7</option>
                 <option value="8">8</option>
               </select>
+              <i className="fas fa-chevron-down"/>
             </label>
             <label className="label2">
               When is your date?
-              <input type="text" name="date" value={this.state.date} onChange={this.handleChange} placeholder="17-02-2020"/>
+              <DatePicker selected={this.state.startDate} onChange={this.handleChangeDate}/>
+              <i className="fas fa-calendar-alt"/>
             </label>
             <label className="label3">
               Time
-              <input type="text" name="time" value={this.state.time} onChange={this.handleChange} placeholder="10:00am"/>
+              <TimePicker onChange={this.handleChangeTime} value={this.state.time} start="10:00" end="21:00" step={15} className="inputTime"/>
+              <i className="fas fa-clock"/>
             </label>
             <label className="label4">
               Name
@@ -62,7 +78,7 @@ class Group07 extends Component {
             </label>
           </div>
 
-          <div className="mt-10 text-center">
+          <div className="mt-10 md:mt-0 text-center">
             <input type="submit" value="Submit" className="submitButton"/>
           </div>
         </form>

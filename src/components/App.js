@@ -1,6 +1,6 @@
 import React from 'react';
 import "./App.css";
-import Group01HeroArea from "./Group01HeroArea";
+import Group01Header from "./Group01Header";
 import Group02 from "./Group02";
 import Group03 from "./Group03";
 import Group04 from "./Group04";
@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className="main">
       {/*<img src={mainBG} alt="main background" className="main-bg"/>*/}
-      <Group01HeroArea/>
+      <Group01Header/>
       <Group02/>
       <Group03/>
       <Group04/>
