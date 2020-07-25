@@ -1,5 +1,5 @@
 label {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
 }
@@ -13,7 +13,6 @@ input, select {
   padding: 0.25rem 0.5rem;
   &::placeholder {
     padding: 0.25rem 0;
-    //color: white;
   }
   option {
     color: #212121;
@@ -34,6 +33,7 @@ input, select {
 }
 
 .submitButton {
+  margin-top: 2rem;
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
@@ -45,8 +45,6 @@ input, select {
     color: #4f4e4e;
   }
 }
-
-
 
 @media (max-width: 639px) {
   label {
@@ -66,7 +64,6 @@ input, select {
     margin-left: auto
   }
 }
-
 
 @media (min-width: 768px) {
   .label2, .label5 {

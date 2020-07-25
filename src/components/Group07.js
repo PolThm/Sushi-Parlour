@@ -38,7 +38,7 @@ class Group07 extends Component {
     return (
       <div className="g07 container bg-SPDarkGray md:bg-transparent">
         <h2 className="py-16 text-center font-goodDogCool text-5xl sm:text-6xl">Discover</h2>
-        <form onSubmit={this.handleSubmit} className="pb-16">
+        <form onSubmit={this.handleSubmit} className="pb-20">
           <div className="flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
             <label className="label1">
               How many people?
@@ -78,7 +78,7 @@ class Group07 extends Component {
             </label>
           </div>
 
-          <div className="mt-10 md:mt-0 text-center">
+          <div className="pb-2 mt-10 md:mt-0 text-center">
             <input type="submit" value="Submit" className="submitButton"/>
           </div>
         </form>
