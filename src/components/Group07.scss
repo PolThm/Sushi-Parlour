@@ -26,7 +26,7 @@ input, select {
   z-index: 20;
 }
 
-.fa-chevron-down, .fa-calendar-alt, .fa-clock {
+.fas {
   position: relative;
   top: -33px;
   left: 200px;
@@ -52,6 +52,9 @@ input, select {
   label {
     align-items: center !important;
     margin-bottom: 1rem;
+  }
+  .fas {
+    left: 95px;
   }
 }
 
