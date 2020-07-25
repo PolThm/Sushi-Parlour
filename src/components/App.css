@@ -2,7 +2,7 @@
   font-family: Montserrat, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, span {
+h1, h2, h3, h4, h5, h6, p, a, span, label, input {
   color: white;
 }
 
@@ -20,6 +20,12 @@ h1, h2, h3, h4, h5, h6, p, a, span {
 
 .heroArea {
   z-index: 20;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1rem;
 }
 
 /*# sourceMappingURL=App.css.map */

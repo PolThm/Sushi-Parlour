@@ -32,7 +32,6 @@ header {
         padding: 0.5rem;
         border: solid transparent 1px;
         transition: border-color 100ms ease-in-out;
-
         &:hover {
           border-color: $primary;
         }
@@ -92,7 +91,7 @@ header {
 
       h1 {
         font-size: 3.6rem;
-        margin-top: 9vh;
+        margin-top: 8vh;
       }
 
       h2 {
@@ -101,7 +100,7 @@ header {
       }
 
       .learnMoreButton {
-        margin-top: 12vh;
+        margin-top: 11vh;
         a {
           font-size: 3.1rem;
           text-decoration: none;

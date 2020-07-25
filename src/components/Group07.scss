@@ -1,2 +1,50 @@
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 0.5rem 0;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 6px;
+  max-width: 14rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.submitButton {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 14rem;
+  transition: all 100ms ease-in-out;
+  transition-property: background-color, color;
+  &:hover {
+    background-color: white;
+    color: #4f4e4e;
+  }
+}
 
 
+
+@media (max-width: 639px) {
+  label {
+    align-items: center !important;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .label2, .label4, .label6 {
+    margin-left: auto
+  }
+}
+
+
+@media (min-width: 768px) {
+  .label2, .label5 {
+    margin: 0 auto;
+  }
+  .label3, .label6 {
+    margin-left: auto;
+  }
+}

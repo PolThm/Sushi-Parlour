@@ -71,14 +71,14 @@ header .header-content .header-core h1, header .header-content .header-core h2, 
 }
 header .header-content .header-core h1 {
   font-size: 3.6rem;
-  margin-top: 9vh;
+  margin-top: 8vh;
 }
 header .header-content .header-core h2 {
   font-size: 4.9rem;
   margin-top: -30px;
 }
 header .header-content .header-core .learnMoreButton {
-  margin-top: 12vh;
+  margin-top: 11vh;
 }
 header .header-content .header-core .learnMoreButton a {
   font-size: 3.1rem;

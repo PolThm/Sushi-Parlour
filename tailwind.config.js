@@ -10,7 +10,8 @@ module.exports = {
       },
       backgroundColor: {
         SPGreen: '#afc67b',
-        SPDarkGreen: '#4d5342'
+        SPDarkGreen: '#4d5342',
+        SPDarkGray: '#212121'
       },
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],
