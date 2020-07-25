@@ -37,7 +37,7 @@ class Group07 extends Component {
   render() {
     return (
       <div className="g07 container bg-SPDarkGray md:bg-transparent">
-        <h2 className="py-16 text-center font-goodDogCool text-5xl sm:text-6xl">Discover</h2>
+        <h2 className="pt-16 pb-8 text-center font-goodDogCool text-5xl sm:text-6xl">Book here</h2>
         <form onSubmit={this.handleSubmit} className="pb-20">
           <div className="flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
             <label className="label1">
