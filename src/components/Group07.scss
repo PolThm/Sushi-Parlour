@@ -3,13 +3,19 @@ label {
   flex-direction: column;
 }
 
-input {
+input, select {
   margin: 0.5rem 0;
   background-color: transparent;
   border: 1px solid white;
   border-radius: 6px;
   max-width: 14rem;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.25rem;
+  &::placeholder {
+    padding: 0.25rem 0.25rem;
+  }
+  option {
+    color: #212121;
+  }
 }
 
 .submitButton {

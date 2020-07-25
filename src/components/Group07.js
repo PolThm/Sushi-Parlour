@@ -29,7 +29,16 @@ class Group07 extends Component {
           <div className="flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
             <label className="label1">
               How many people?
-              <input type="text" name="nbOfPeople" value={this.state.nbOfPeople} onChange={this.handleChange} placeholder="2 people"/>
+              <select type="text" name="nbOfPeople" value={2 || this.state.nbOfPeople} onChange={this.handleChange} placeholder="2 people">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
             </label>
             <label className="label2">
               When is your date?
