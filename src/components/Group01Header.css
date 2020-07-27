@@ -1,8 +1,12 @@
 header .header-content {
   max-width: 1440px;
   margin: auto;
-  z-index: 20;
   position: relative;
+  z-index: 20;
+}
+header .header-content nav {
+  position: relative;
+  z-index: 30;
 }
 header .header-content nav ul {
   padding: 3rem 4rem;

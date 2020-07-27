@@ -1,48 +1,57 @@
-label {
-  margin-bottom: 3rem;
-  display: flex;
-  flex-direction: column;
-}
-
-input, select {
-  margin: 0.5rem 0;
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 6px;
-  max-width: 14rem;
-  padding: 0.25rem 0.5rem;
-  &::placeholder {
-    padding: 0.25rem 0;
-  }
-  option {
-    color: #212121;
-  }
-}
-.inputPeople, .inputTime {
-  padding: 0.25rem 0.5rem;
-  width: 14rem;
-  appearance: none;
-  z-index: 20;
-}
-
-.fas {
+.g07 {
   position: relative;
-  top: -33px;
-  left: 200px;
-  z-index: 1;
-}
+  z-index: 20;
+  label {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
 
-.submitButton {
-  margin-top: 2rem;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold;
-  width: 14rem;
-  transition: all 100ms ease-in-out;
-  transition-property: background-color, color;
-  &:hover {
-    background-color: white;
-    color: #4f4e4e;
+  input, select {
+    margin: 0.5rem 0;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 6px;
+    max-width: 14rem;
+    padding: 0.25rem 0.5rem;
+
+    &::placeholder {
+      padding: 0.25rem 0;
+    }
+
+    option {
+      color: #212121;
+    }
+  }
+
+  .inputPeople, .inputTime, .inputDate {
+    padding: 0.25rem 0.5rem;
+    width: 14rem;
+    appearance: none;
+    position: relative;
+    z-index: 30;
+  }
+
+  .fas {
+    position: relative;
+    top: -33px;
+    left: 200px;
+    z-index: 1;
+  }
+
+  .submitButton {
+    margin-top: 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 14rem;
+    transition: all 100ms ease-in-out;
+    transition-property: background-color, color;
+
+    &:hover {
+      background-color: white;
+      color: #4f4e4e;
+    }
   }
 }
 

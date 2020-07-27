@@ -5,9 +5,11 @@ header {
   .header-content {
     max-width: 1440px;
     margin: auto;
-    z-index: 20;
     position: relative;
+    z-index: 20;
     nav {
+      position: relative;
+      z-index: 30;
       ul {
         padding: 3rem 4rem;
         display: flex;

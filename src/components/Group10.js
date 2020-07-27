@@ -14,11 +14,11 @@ const Group10 = () => {
         <p className="text-SPGreen font-goodDogCool text-3xl mt-3">Linda Steward</p>
       </div>
       <div className="mt-8 flex justify-center flex-wrap">
-        <i className="fab fa-facebook-f"/>
-        <i className="fab fa-twitter"/>
-        <i className="fab fa-instagram"/>
-        <i className="fab fa-pinterest-p"/>
-        <i className="fab fa-google-plus-g"/>
+        <a href=""><i className="fab fa-facebook-f"/></a>
+        <a href=""><i className="fab fa-twitter"/></a>
+        <a href=""><i className="fab fa-instagram"/></a>
+        <a href=""><i className="fab fa-pinterest-p"/></a>
+        <a href=""><i className="fab fa-google-plus-g"/></a>
       </div>
     </div>
   );

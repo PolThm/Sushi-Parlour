@@ -1,4 +1,9 @@
+.g10 a {
+  color: #212121;
+}
 .g10 .fab {
+  position: relative;
+  z-index: 20;
   margin: 0.5rem 1rem;
   cursor: pointer;
   display: flex;

@@ -56,7 +56,7 @@ class Group07 extends Component {
             </label>
             <label className="label2">
               When is your date?
-              <DatePicker selected={this.state.startDate} onChange={this.handleChangeDate}/>
+              <DatePicker selected={this.state.startDate} onChange={this.handleChangeDate} className="inputDate"/>
               <i className="fas fa-calendar-alt"/>
             </label>
             <label className="label3">

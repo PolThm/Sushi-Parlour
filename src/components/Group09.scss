@@ -11,8 +11,16 @@
 .g09Element {
   max-width: 400px;
   .readMoreLink {
+    position: relative;
+    z-index: 20;
     a {
       border-bottom: 10px solid #afc67b;
+      transition: all 100ms ease-in-out;
+      transition-property: color, border-color;
+      &:hover {
+        color: lighten(#4f4e4e,10%);
+        border-color: lighten(#afc67b,10%);
+      }
     }
   }
 }
