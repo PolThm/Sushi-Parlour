@@ -13,7 +13,7 @@ const Group10 = () => {
           ut labore et dolore magna aliqua. Ut enim ad minim veniam quis. </p>
         <p className="text-SPGreen font-goodDogCool text-3xl mt-3">Linda Steward</p>
       </div>
-      <div className="mt-8 flex justify-center flex-wrap">
+      <div className="mt-6 flex justify-center flex-wrap">
         <a href=""><i className="fab fa-facebook-f"/></a>
         <a href=""><i className="fab fa-twitter"/></a>
         <a href=""><i className="fab fa-instagram"/></a>

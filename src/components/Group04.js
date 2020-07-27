@@ -13,11 +13,11 @@ const Group04 = () => {
     <div className="g04">
 
       <div className="container my-24 px-0">
-        <div className="bg-SPDarkGreen py-16 text-center">
+        <div className="bg-SPDarkGreen bg-opacity-75 py-16 text-center">
           <h2 className="font-goodDogCool text-SPGreen text-4xl sm:text-5xl">We bring tradition</h2>
           <h2 className="g04TitleL2 text-3xl sm:text-5xl uppercase font-weight-light">To your plate</h2>
         </div>
-        <div className="bg-SPDarkGreen grid lg:grid-cols-2">
+        <div className="bg-SPDarkGreen bg-opacity-75 grid lg:grid-cols-2">
           <Group04Dish
             img={img01}
             title={"California Sushi"}

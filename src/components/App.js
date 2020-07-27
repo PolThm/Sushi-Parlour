@@ -16,7 +16,7 @@ import mainBG from "../img/main-bg.png";
 const App = () => {
   return (
     <div className="main">
-      <img src={mainBG} alt="main background" className="main-bg"/>
+      {/*<img src={mainBG} alt="main background" className="main-bg h-full"/>*/}
       <Group01Header/>
       <Group02/>
       <Group03/>
@@ -29,7 +29,7 @@ const App = () => {
       <Group10/>
       <Group11Footer/>
 
-      <div className="h-screen" />
+      {/*<div className="h-screen" />*/}
     </div>
   );
 };

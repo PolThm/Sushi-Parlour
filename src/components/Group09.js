@@ -7,7 +7,7 @@ import food03 from "../img/group09/g09-food03.jpg";
 
 const Group09 = () => {
   return (
-    <div className="g09 bg-SPDarkGreen">
+    <div className="g09 bg-SPDarkGreen bg-opacity-75">
       <div className="container pt-16 pb-40">
         <div className="g09-content">
           <div className="pb-10 text-center">

@@ -1,0 +1,39 @@
+footer {
+  background-color: rgba(77, 83, 66, 0.175);
+  h4 {
+    margin-bottom: 3.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  h5 {
+    margin-bottom: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  p {
+    max-width: 300px;
+  }
+
+  a {
+    font-weight: 300;
+    transition: color 100ms ease-in-out;
+    &:hover {
+      color: #afc67b;
+    }
+  }
+  span a {
+    display: inline-block;
+    font-weight: 400;
+    color: #afc67b;
+    transition: color 200ms ease-in-out;
+    &:hover {
+      color: lighten(#afc67b, 15%);
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  h4 {
+    margin-bottom: 2rem !important;
+  }
+}
