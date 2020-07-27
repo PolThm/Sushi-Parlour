@@ -8,7 +8,7 @@
     margin-left: 0;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .g02-texts {
     text-align: left !important;
   }

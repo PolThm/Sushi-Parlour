@@ -75,14 +75,14 @@ header .header-content .header-core h1, header .header-content .header-core h2, 
 }
 header .header-content .header-core h1 {
   font-size: 3.6rem;
-  margin-top: 8vh;
+  margin-top: 7vh;
 }
 header .header-content .header-core h2 {
   font-size: 4.9rem;
   margin-top: -30px;
 }
 header .header-content .header-core .learnMoreButton {
-  margin-top: 11vh;
+  margin-top: 10vh;
 }
 header .header-content .header-core .learnMoreButton a {
   font-size: 3.1rem;
@@ -96,7 +96,45 @@ header .header-content .header-core .learnMoreButton a:hover {
   background-color: transparent;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
+  .menuOpenButton, .menuCloseButton {
+    top: 48px !important;
+    right: 48px !important;
+  }
+
+  .header-main {
+    margin-right: 0 !important;
+    justify-content: center !important;
+  }
+
+  .header-core {
+    padding: 0 2rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around !important;
+  }
+  .header-core img {
+    margin-top: 5vh !important;
+  }
+  .header-core h1 {
+    font-size: 1.9rem !important;
+    margin-top: 0 !important;
+  }
+  .header-core h2 {
+    font-size: 2.69rem !important;
+    margin-top: -20px !important;
+  }
+  .header-core .learnMoreButton {
+    margin-top: 0 !important;
+    margin-bottom: 20vh !important;
+  }
+  .header-core .learnMoreButton a {
+    font-size: 1.5rem !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
   .header-main {
     margin-right: 0 !important;
     justify-content: center !important;
@@ -119,6 +157,7 @@ header .header-content .header-core .learnMoreButton a:hover {
   }
   .header-core h2 {
     font-size: 3.5rem !important;
+    margin-top: -25px !important;
   }
   .header-core .learnMoreButton {
     margin-top: 0 !important;
@@ -128,23 +167,7 @@ header .header-content .header-core .learnMoreButton a:hover {
     font-size: 2rem !important;
   }
 }
-@media (max-width: 480px) {
-  .menuOpenButton, .menuCloseButton {
-    top: 48px !important;
-    right: 48px !important;
-  }
-
-  .header-core h1 {
-    font-size: 2.3rem !important;
-  }
-  .header-core h2 {
-    font-size: 3.3rem !important;
-  }
-  .header-core a {
-    font-size: 1.8rem !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .header-content nav a {
     font-size: 1.8rem !important;
   }

@@ -1,5 +1,7 @@
 footer {
   background-color: rgba(77, 83, 66, 0.175);
+  position: relative;
+  z-index: 20;
   h4 {
     margin-bottom: 3.1rem;
     font-weight: bold;
@@ -27,13 +29,15 @@ footer {
     color: #afc67b;
     transition: color 200ms ease-in-out;
     &:hover {
-      color: lighten(#afc67b, 15%);
+      color: lighten(#afc67b, 10%);
     }
   }
 }
 
-@media (max-width: 639px) {
-  h4 {
-    margin-bottom: 2rem !important;
+@media (max-width: 640px) {
+  footer {
+    h4 {
+      margin-bottom: 2rem !important;
+    }
   }
 }

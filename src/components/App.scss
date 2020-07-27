@@ -8,11 +8,11 @@ h1, h2, h3, h4, h5, h6, p, a, span, label, input {
 
 .main {
   background-color: #212121;
-  //height: 8000px;
   height: 100%;
   .main-bg {
     position: absolute;
-    height: 8000px;
+    //height: 8410px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     z-index: 10;
@@ -30,3 +30,38 @@ h1, h2, h3, h4, h5, h6, p, a, span, label, input {
   padding-left: 1rem;
 }
 
+
+//// Smartphones
+//@media (max-width: 640px) {
+//  .main-bg {
+//    height: 14828px;
+//  }
+//}
+//
+//// Smartphones to Tablets
+//@media (min-width: 641px) and (max-width: 768px) {
+//  .main-bg {
+//    height: 9418px;
+//  }
+//}
+//
+//// Tablets
+//@media (min-width: 769px) and (max-width: 1024px) {
+//  .main-bg {
+//    height: 9579px;
+//  }
+//}
+//
+//// Desktop
+//@media (min-width: 1025px) and (max-width: 1280px) {
+//  .main-bg {
+//    height: 8211px;
+//  }
+//}
+//
+//// Large Display
+//@media (min-width: 1281px) {
+//  .main-bg {
+//    height: 8410px;
+//  }
+//}
