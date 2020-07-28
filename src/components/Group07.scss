@@ -1,6 +1,6 @@
 .g07 {
   position: relative;
-  z-index: 20;
+
   label {
     margin-bottom: 3rem;
     display: flex;
@@ -8,13 +8,13 @@
   }
 
   input, select {
+    z-index: 20;
     margin: 0.5rem 0;
     background-color: transparent;
     border: 1px solid white;
     border-radius: 6px;
     max-width: 14rem;
     padding: 0.25rem 0.5rem;
-
     &::placeholder {
       padding: 0.25rem 0;
     }
@@ -40,6 +40,8 @@
   }
 
   .submitButton {
+    position: relative;
+    z-index: 20;
     margin-top: 2rem;
     cursor: pointer;
     text-transform: uppercase;

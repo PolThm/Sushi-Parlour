@@ -12,8 +12,6 @@ class Group07 extends Component {
     name: '',
     email: '',
     phone: '',
-
-
   };
 
   handleChange = (event) => {

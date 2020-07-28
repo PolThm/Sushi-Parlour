@@ -41,7 +41,6 @@ const Group11Footer = () => {
           </div>
         </div>
       </div>
-
     </footer>
   );
 };

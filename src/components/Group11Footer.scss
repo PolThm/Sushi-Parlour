@@ -1,7 +1,6 @@
 footer {
   background-color: rgba(77, 83, 66, 0.175);
   position: relative;
-  z-index: 20;
   h4 {
     margin-bottom: 3.1rem;
     font-weight: bold;
@@ -13,10 +12,12 @@ footer {
     text-transform: uppercase;
   }
   p {
+    z-index: 20;
     max-width: 300px;
   }
 
   a {
+    z-index: 20;
     font-weight: 300;
     transition: color 100ms ease-in-out;
     &:hover {
@@ -24,6 +25,7 @@ footer {
     }
   }
   span a {
+    z-index: 20;
     display: inline-block;
     font-weight: 400;
     color: #afc67b;

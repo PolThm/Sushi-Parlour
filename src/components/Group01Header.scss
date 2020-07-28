@@ -14,13 +14,11 @@ header {
         padding: 3rem 4rem;
         display: flex;
         justify-content: flex-end;
-        //margin-right: -0.7rem;
       }
 
       li {
         display: inline;
         margin-left: 1rem;
-
         &:nth-child(2) {
           margin-left: 3rem;
         }
