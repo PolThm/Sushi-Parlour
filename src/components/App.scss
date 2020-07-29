@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, label, input {
 }
 
 .main {
+  overflow-x: hidden;
   background-color: #212121;
   height: 100%;
   position: relative;
@@ -19,13 +20,11 @@ h1, h2, h3, h4, h5, h6, p, a, span, label, input {
   }
 }
 
-.heroArea {
-  z-index: 20;
-}
-
 .container {
   margin-right: auto;
   margin-left: auto;
   padding-right: 1rem;
   padding-left: 1rem;
 }
+
+
