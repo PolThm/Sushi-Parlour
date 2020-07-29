@@ -9,17 +9,12 @@ h1, h2, h3, h4, h5, h6, p, a, span, label, input {
 .main {
   background-color: #212121;
   height: 100%;
+  position: relative;
   .main-bg {
-    //background-color: red;
     z-index: 10;
     position: absolute;
-    //top: 0;
-    //right: 0;
-    //bottom: 0;
-    //left: 0;
-    height: 8500px;
-    min-height: 100%;
-    min-width: 100%;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
   }
 }
@@ -34,39 +29,3 @@ h1, h2, h3, h4, h5, h6, p, a, span, label, input {
   padding-right: 1rem;
   padding-left: 1rem;
 }
-
-
-//// Smartphones
-//@media (max-width: 640px) {
-//  .main-bg {
-//    height: 14828px;
-//  }
-//}
-//
-//// Smartphones to Tablets
-//@media (min-width: 641px) and (max-width: 768px) {
-//  .main-bg {
-//    height: 9418px;
-//  }
-//}
-//
-//// Tablets
-//@media (min-width: 769px) and (max-width: 1024px) {
-//  .main-bg {
-//    height: 9579px;
-//  }
-//}
-//
-//// Desktop
-//@media (min-width: 1025px) and (max-width: 1280px) {
-//  .main-bg {
-//    height: 8211px;
-//  }
-//}
-//
-//// Large Display
-//@media (min-width: 1281px) {
-//  .main-bg {
-//    height: 8410px;
-//  }
-//}
