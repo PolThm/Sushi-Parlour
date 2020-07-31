@@ -33,6 +33,7 @@ header .header-content nav a:hover {
   border-color: #afc67b;
 }
 header .header-content nav .menuOpenButton {
+  cursor: pointer;
   display: flex;
   position: absolute;
   right: 96px;
@@ -40,6 +41,7 @@ header .header-content nav .menuOpenButton {
   color: #afc67b !important;
 }
 header .header-content nav .small-menu .menuCloseButton {
+  cursor: pointer;
   display: flex;
   position: absolute;
   right: 96px;

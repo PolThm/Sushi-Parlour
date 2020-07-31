@@ -38,6 +38,7 @@ header {
       }
 
       .menuOpenButton {
+        cursor: pointer;
         display: flex;
         position: absolute;
         right: 96px;
@@ -47,6 +48,7 @@ header {
 
       .small-menu {
         .menuCloseButton {
+          cursor: pointer;
           display: flex;
           position: absolute;
           right: 96px;
