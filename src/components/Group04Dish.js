@@ -3,11 +3,11 @@ import React from "react";
 const Group04Dish = (props) => {
   let className = "g04Dish flex flex-col";
 
-  if(props.peer && props.col2) {
+  if (props.peer && props.line2) {
     className += ' sm:flex-row-reverse lg:flex-row-reverse'
-  } else if(props.peer) {
+  } else if (props.peer) {
     className += ' lg:flex-row sm:flex-row-reverse';
-  } else if (props.col2) {
+  } else if (props.line2) {
     className += ' sm:flex-row lg:flex-row-reverse';
   } else {
     className += ' sm:flex-row lg:flex-row';
