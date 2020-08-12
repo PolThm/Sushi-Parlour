@@ -1,0 +1,44 @@
+footer {
+  background-color: rgba(77, 83, 66, 0.175);
+  position: relative;
+}
+footer h4 {
+  margin-bottom: 3.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+footer h5 {
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+footer p {
+  z-index: 20;
+  max-width: 300px;
+}
+footer a {
+  z-index: 20;
+  font-weight: 300;
+  transition: color 100ms ease-in-out;
+}
+footer a:hover {
+  color: #afc67b;
+}
+footer span a {
+  z-index: 20;
+  display: inline-block;
+  font-weight: 400;
+  color: #afc67b;
+  transition: color 200ms ease-in-out;
+}
+footer span a:hover {
+  color: #c5d59f;
+}
+
+@media (max-width: 640px) {
+  footer h4 {
+    margin-bottom: 2rem !important;
+  }
+}
+
+/*# sourceMappingURL=Group11Footer.css.map */

@@ -1,0 +1,82 @@
+.g07 {
+  position: relative;
+}
+.g07 label {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.g07 input, .g07 select {
+  z-index: 20;
+  margin: 0.5rem 0;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 6px;
+  max-width: 14rem;
+  padding: 0.25rem 0.5rem;
+}
+.g07 input::placeholder, .g07 select::placeholder {
+  padding: 0.25rem 0;
+}
+.g07 input option, .g07 select option {
+  color: #212121;
+}
+.g07 .inputPeople, .g07 .inputTime, .g07 .inputDate {
+  padding: 0.25rem 0.5rem;
+  width: 14rem;
+  appearance: none;
+  position: relative;
+  z-index: 30;
+}
+.g07 .fas {
+  position: relative;
+  top: -33px;
+  left: 200px;
+  z-index: 1;
+}
+.g07 .submitButton {
+  position: relative;
+  z-index: 20;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 14rem;
+  transition: all 100ms ease-in-out;
+  transition-property: background-color, color;
+}
+.g07 .submitButton:hover {
+  background-color: white;
+  color: #4f4e4e;
+}
+
+@media (max-width: 640px) {
+  label {
+    align-items: center !important;
+    margin-bottom: 1rem;
+  }
+
+  .fas {
+    left: 95px !important;
+  }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+  label {
+    margin-bottom: 2rem;
+  }
+
+  .label2, .label4, .label6 {
+    margin-left: auto;
+  }
+}
+@media (min-width: 769px) {
+  .label2, .label5 {
+    margin: 0 auto;
+  }
+
+  .label3, .label6 {
+    margin-left: auto;
+  }
+}
+
+/*# sourceMappingURL=Group07.css.map */

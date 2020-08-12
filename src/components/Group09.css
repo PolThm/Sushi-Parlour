@@ -1,0 +1,26 @@
+.g09 .g09-content {
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+.g09 .g09TitleL2 {
+  margin-top: -15px;
+}
+
+.g09Element {
+  max-width: 400px;
+}
+.g09Element .readMoreLink {
+  position: relative;
+  z-index: 20;
+}
+.g09Element .readMoreLink a {
+  border-bottom: 10px solid #afc67b;
+  transition: all 100ms ease-in-out;
+  transition-property: color, border-color;
+}
+.g09Element .readMoreLink a:hover {
+  color: #696767;
+  border-color: #c5d59f;
+}
+
+/*# sourceMappingURL=Group09.css.map */
