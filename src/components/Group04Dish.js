@@ -1,14 +1,20 @@
 import React from "react";
 
 const Group04Dish = (props) => {
+  let className = "g04Dish flex flex-col";
+
+  if(props.peer && props.col2) {
+    className += ' sm:flex-row-reverse lg:flex-row-reverse'
+  } else if(props.peer) {
+    className += ' lg:flex-row sm:flex-row-reverse';
+  } else if (props.col2) {
+    className += ' sm:flex-row lg:flex-row-reverse';
+  } else {
+    className += ' sm:flex-row lg:flex-row';
+  }
+
   return (
-    <div
-      className={
-        props.peer ? "g04Dish flex flex-col lg:flex-row sm:flex-row-reverse" : "g04Dish flex flex-col sm:flex-row lg:flex-row"
-        && props.col2 ? "g04Dish flex flex-col sm:flex-row lg:flex-row-reverse" : "g04Dish flex flex-col sm:flex-row lg:flex-row"
-        && props.peerAndCol2 ? "g04Dish flex flex-col sm:flex-row-reverse lg:flex-row-reverse" : "g04Dish flex flex-col sm:flex-row lg:flex-row"
-      }
-    >
+    <div className={className}>
       <div className="w-full">
         <img src={props.img} alt={props.title} className="w-full h-full bg-cover"/>
       </div>
