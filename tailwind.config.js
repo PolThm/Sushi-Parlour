@@ -1,5 +1,3 @@
-// import './src/scssLibs/fonts.css';
-
 module.exports = {
   purge: [
     './src/**/*.jsx',
