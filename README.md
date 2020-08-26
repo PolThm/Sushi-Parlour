@@ -1,6 +1,11 @@
-https://sushi-parlour.pol-thomas.com/
+Link to the project: https://sushi-parlour.pol-thomas.com/
 
+Main technologies used for the project:
+- React JS
+- SASS
+- Tailwind CSS
 
+----------------------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
